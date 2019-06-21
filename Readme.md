@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # ASPxUploadControl - How to attach a file to the MailMessage using ASPxUploadControl
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e4131/)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how to attach a file to the MailMessage using ASPxUploadControl.</p><p>Note that it is necessary to download a project and configure the SMTP client to send an email.</p>
