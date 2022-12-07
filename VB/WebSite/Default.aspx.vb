@@ -10,7 +10,7 @@ Partial Public Class _Default
 	Private Const HOST_USERNAME As String = "###"
 	Private Const HOST_PASSWORD As String = "###"
 
-	Protected Sub uc_FileUploadComplete(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)
+	Protected Sub uc_FileUploadComplete(ByVal sender As Object, ByVal e As DevExpress.Web.FileUploadCompleteEventArgs)
 		'It is not allowed to post messages in the online mode. Download this example on your machine and remove this restriction
 		Dim isOnlineMode As Boolean = True
 		If (Not isOnlineMode) Then

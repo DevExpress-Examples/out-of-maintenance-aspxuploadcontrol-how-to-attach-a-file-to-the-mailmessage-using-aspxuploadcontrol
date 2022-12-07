@@ -8,7 +8,7 @@ public partial class _Default : System.Web.UI.Page {
     const string HOST_USERNAME = "###";
     const string HOST_PASSWORD = "###";
 
-    protected void uc_FileUploadComplete(object sender, DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs e) {
+    protected void uc_FileUploadComplete(object sender, DevExpress.Web.FileUploadCompleteEventArgs e) {
         //It is not allowed to post messages in the online mode. Download this example on your machine and remove this restriction
         bool isOnlineMode = true;
         if(!isOnlineMode) {
